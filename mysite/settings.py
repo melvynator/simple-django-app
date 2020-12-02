@@ -9,23 +9,14 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 
 import os
 
-# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'y1y5zrrgc7w&=9%$$an*_m)$yfmo*t7=&$(a@xy54zvk^5=tau'
 
-# SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
-# Application definition
 
 INSTALLED_APPS = [
     'django.contrib.auth',
@@ -53,8 +44,8 @@ MIDDLEWARE = [
 #ELASTIC_APM = {
 #  "DEBUG": True,
 #  'SERVICE_NAME': 'webinar',
-#  'SECRET_TOKEN': 'guv00m3hWQykPa2nU9',
-#  'SERVER_URL': 'https://93e10c40e1e14ee893c147b80ed05335.apm.us-central1.gcp.cloud.es.io:443',
+#  'SECRET_TOKEN': 'TOKEN',
+#  'SERVER_URL': 'URL',
 #  'SERVICE_VERSION': 1.2,
 #}
 
